@@ -128,3 +128,31 @@ color:white;
 .articles a:hover{
 background:#333;
 }
+
+.page{
+max-width:800px;
+margin:40px auto;
+padding:20px;
+line-height:1.6;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+form input, form textarea{
+padding:10px;
+border:none;
+background:#222;
+color:white;
+}
+
+form button{
+padding:10px;
+background:#ff4444;
+color:white;
+border:none;
+cursor:pointer;
+}
